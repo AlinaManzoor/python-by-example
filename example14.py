@@ -1,6 +1,3 @@
-name = input('enter the name : ' , )
-surname = input('enter the surname : ' , )
+nam = input('enter the name : ' , )
 
-final = name + surname 
-
-print(final)
+print(len(nam))
