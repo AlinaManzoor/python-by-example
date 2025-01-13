@@ -1,13 +1,15 @@
 import random
 
+def randomInt():
+    return random.randint(1, 100)
+
 score = 0
-i = 1 
-while i <=5:
-    num1 = random.randint(1, 100)
-    num2 = random.randint(1, 100)
-    ques = num1 + num2 
-    ans = int(input(f"{i}) Addition of  {num1} + {num2}   : "))
-    i += 1
-    if ans == ques:
+# Initialization, condition, increment
+for i in range(1,6):
+    num1 = randomInt()
+    num2 = randomInt()
+    userInput = int(input(f"{i}) Addition of  {num1} + {num2}   : "))
+    ans = num1 + num2
+    if userInput == ans:
         score += 1 
 print("the final score : " , score)
