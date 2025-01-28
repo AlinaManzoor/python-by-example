@@ -1,11 +1,11 @@
 word = input("Type in a word in upper case : " ,)
-tryagain = False
+try_again = False
 
-while tryagain == False:
+while try_again == False:
 
         if word.isupper():
            print("Thank u")
-           tryagain = True  
+           try_again = True  
         else:
             print("Try Again")
             word = input("Enter the word in upper case : " ,)
