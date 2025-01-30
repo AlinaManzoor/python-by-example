@@ -20,4 +20,6 @@ if num == 3:
     file = open("Subject.txt" , "a")
     sub = input("Enter the subject :" ,)
     file.write(sub)
+    file = open("Subject.txt" , "r")
+    print(file.read())
     file.close()
