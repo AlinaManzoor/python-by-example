@@ -5,7 +5,7 @@ title = input("Enter the title : ", )
 author = input("Enter the author : ", )
 year = input("Enter the year : ", )
 
-new_recode = "\n",title ,"" , author , ""  , year
+new_recode = title ,"" , author , ""  , year, "\n"
 file.write(str(new_recode))
 file.close()
 
